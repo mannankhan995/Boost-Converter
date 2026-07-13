@@ -13,5 +13,6 @@ The system utilizes a Dual-Loop Average Current-Mode Control scheme to achieve o
 
 <img width="2454" height="1117" alt="1" src="https://github.com/user-attachments/assets/98a8ff00-ee34-480b-abcf-829f9d4e9ac0" />
 
+
 1. Outer Voltage Loop ($G_v$): Operates at a crossover frequency of $1\text{ kHz}$ to regulate the output voltage ($V_{out}$) tightly to $24\text{ V}$.
 2. Inner Current Loop ($Gi$): Operates at a much faster crossover frequency of $10\text{ kHz}$ to instantly respond to line/load perturbations and stabilize the inductor current ($i_L$).
