@@ -3,9 +3,9 @@
 Contains a complete mathematical modeling, control loop design, and dynamic simulation framework for a synchronous DC-DC Boost Converter. The project employs a mathematical script alongside a high-fidelity power-block simulation to demonstrate precise transient regulation and stability.
 
 # Key Features
-• State-Space Averaged Modeling: Automated extraction of small-signal control-to-output ($G_{vd}$) and control-to-inductor current ($G_{id}$) transfer functions.
-• Dual-Loop Control Topology: High-bandwidth inner current loop paired with a robust outer voltage loop to handle right-half-plane (RHP) zero constraints.
-• Type-II Analog Compensator Design: Exact automated component-level calculation ($R$, $C$ values) for targeted phase margins and crossover frequencies.
+- State-Space Averaged Modeling: Automated extraction of small-signal control-to-output ($G_{vd}$) and control-to-inductor current ($G_{id}$) transfer functions.
+- Dual-Loop Control Topology: High-bandwidth inner current loop paired with a robust outer voltage loop to handle right-half-plane (RHP) zero constraints.
+- Type-II Analog Compensator Design: Exact automated component-level calculation ($R$, $C$ values) for targeted phase margins and crossover frequencies.
 
 # Controller Architecture
 
